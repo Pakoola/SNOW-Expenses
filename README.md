@@ -1,4 +1,4 @@
-#SNOW Expenses
+# SNOW Expenses
 Attach Chase Excel file of bank activity for the data source. Run data import and transform the data to add data to the u_bank_expenses table.
 
 # Generated files
