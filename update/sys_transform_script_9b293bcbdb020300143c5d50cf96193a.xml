@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_transform_script">
+    <sys_transform_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <map display_value="Chase Import Transform">b20fb2f6db420300143c5d50cf961903</map>
+        <order>100</order>
+        <script><![CDATA[(function runTransformScript(source, map, log, target /*undefined onStart*/ ) {
+    var desc = source.u_description.toUpperCase();
+
+    var categories = {
+        Travel: [
+            "EXXONMOBIL", "SHELL", "SPEEDWAY", "MURPHY"
+        ],
+        Groceries: [
+            "WAL-MART", "WM SUPERCENTER", "JEWEL", "FAMILY FARE"
+        ],
+        Dining: [
+            "STEAK-N-SHAKE", "KFC", "THAI", "TACO BELL", "MCDONALD",
+            "MAIN ST PUB", "JIMMY JOHNS", "TIM HORTON",
+            "GEORGES", "ANTHONYS PANCAKE HOUSE", "DAVIDSONS BAR GRILL",
+            "LOU MALNATIS", "CHUCKS SOUTHERN", "MENNAS JOINT",
+            "STARBUCKS", "CHILI", "3 CORNERS GRILL", "POPS ITALIAN BEEF",
+            "BUONA", "MULLETS", "SONIC", "GIORDANO", "BULL DOG",
+            "CHIPOTLE", "BWW", "UNCLE BUB"
+        ],
+        Clothing: [
+            "ZUMIEZ", "OLD NAVY", "JCPENNEY", "MACY",
+            "AEROPOSTLE", "KHOLS"
+        ],
+        Housing: [
+            "IKEA", "HOME-DEPOT", "HOMEDEPOT", "MENARDS"
+        ]
+    };
+
+    for (var key in categories) {
+        if (desc.indexOf(categories[key])) {
+            target.category = key.toString();
+            target.update();
+        }
+    }
+})(source, map, log, target);]]></script>
+        <sys_class_name>sys_transform_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-31 14:18:28</sys_created_on>
+        <sys_id>9b293bcbdb020300143c5d50cf96193a</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>onAfter</sys_name>
+        <sys_package display_value="Bank Expenses" source="x_11532_bank_expen">6075e2b2db020300143c5d50cf9619c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bank Expenses">6075e2b2db020300143c5d50cf9619c8</sys_scope>
+        <sys_update_name>sys_transform_script_9b293bcbdb020300143c5d50cf96193a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-22 21:37:43</sys_updated_on>
+        <when>onAfter</when>
+    </sys_transform_script>
+</record_update>

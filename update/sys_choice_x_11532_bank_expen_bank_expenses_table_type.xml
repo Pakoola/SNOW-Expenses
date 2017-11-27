@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="type" table="x_11532_bank_expen_bank_expenses_table" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Sale</label>
+            <language>en</language>
+            <name>x_11532_bank_expen_bank_expenses_table</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-30 15:13:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>992e7eb6db420300143c5d50cf96196e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-30 15:13:47</sys_updated_on>
+            <value>Sale</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Payment</label>
+            <language>en</language>
+            <name>x_11532_bank_expen_bank_expenses_table</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-30 15:14:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3d4e7eb6db420300143c5d50cf961971</sys_id>
+            <sys_mod_count>2</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-30 15:14:31</sys_updated_on>
+            <value>Payment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Return</label>
+            <language>en</language>
+            <name>x_11532_bank_expen_bank_expenses_table</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-30 15:14:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>012e7eb6db420300143c5d50cf96193c</sys_id>
+            <sys_mod_count>3</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-30 15:14:30</sys_updated_on>
+            <value>Return</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <name>x_11532_bank_expen_bank_expenses_table</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-30 15:13:47</sys_created_on>
+            <sys_id>f53ebe3edb020300143c5d50cf9619e9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>type</sys_name>
+            <sys_package display_value="Bank Expenses" source="x_11532_bank_expen">6075e2b2db020300143c5d50cf9619c8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Bank Expenses">6075e2b2db020300143c5d50cf9619c8</sys_scope>
+            <sys_update_name>sys_choice_x_11532_bank_expen_bank_expenses_table_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-30 15:13:47</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

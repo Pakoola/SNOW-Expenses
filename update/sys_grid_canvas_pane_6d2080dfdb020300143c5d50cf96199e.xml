@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="PA New Tab">0a84fb0bdb020300143c5d50cf961964</grid_canvas>
+        <height>12</height>
+        <portal_widget display_value="Created 2017-10-31 07:40:19">212080dfdb020300143c5d50cf96199c</portal_widget>
+        <posx>0</posx>
+        <posy>11</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-10-31 14:40:20</sys_created_on>
+        <sys_id>6d2080dfdb020300143c5d50cf96199e</sys_id>
+        <sys_mod_count>17</sys_mod_count>
+        <sys_name>0a84fb0bdb020300143c5d50cf961964</sys_name>
+        <sys_package display_value="Bank Expenses" source="x_11532_bank_expen">6075e2b2db020300143c5d50cf9619c8</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Bank Expenses">6075e2b2db020300143c5d50cf9619c8</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_6d2080dfdb020300143c5d50cf96199e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-11-22 20:55:46</sys_updated_on>
+        <width>6</width>
+    </sys_grid_canvas_pane>
+</record_update>

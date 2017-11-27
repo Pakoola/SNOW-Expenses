@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="type" label="Type" language="en" table="x_11532_bank_expen_bank_expenses_table">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <help/>
+            <hint/>
+            <label>Type</label>
+            <language>en</language>
+            <name>x_11532_bank_expen_bank_expenses_table</name>
+            <plural>Types</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-10-30 13:31:59</sys_created_on>
+            <sys_id>a2e6a23edb020300143c5d50cf961936</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Type</sys_name>
+            <sys_package display_value="Bank Expenses" source="x_11532_bank_expen">6075e2b2db020300143c5d50cf9619c8</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Bank Expenses">6075e2b2db020300143c5d50cf9619c8</sys_scope>
+            <sys_update_name>sys_documentation_x_11532_bank_expen_bank_expenses_table_type_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-10-30 13:31:59</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
